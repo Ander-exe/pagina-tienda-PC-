@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.half-image {
+    width: 100%;
+    height: auto;
+}
+
+.small-image-container {
+    display: flex;
+    align-items: center;
+}
+
+.side-image {
+    margin-right: 10px;
+    width: 150px;
+    height: auto;
+}
+
+.header-icon {
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #f8f9fa;
+    position: relative;
+}
